@@ -1,0 +1,213 @@
+{
+ "dataset": "breast_cancer",
+ "n_samples": 200,
+ "rows": [
+  {
+   "n_qubits": 2,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.4265023885483966,
+   "offdiag_var": 0.0768800553654303,
+   "geometric_difference_min_over_gamma": 28.096520596740728
+  },
+  {
+   "n_qubits": 2,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.568488370126497,
+   "offdiag_var": 0.08416469740304319,
+   "geometric_difference_min_over_gamma": 2.3228550265957004
+  },
+  {
+   "n_qubits": 2,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.9154491689756913,
+   "offdiag_var": 0.01392170379203723,
+   "geometric_difference_min_over_gamma": 1.485634611945332
+  },
+  {
+   "n_qubits": 2,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9958628194175436,
+   "offdiag_var": 4.2807228535221094e-05,
+   "geometric_difference_min_over_gamma": 1.1927093296906957
+  },
+  {
+   "n_qubits": 4,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.07995095651412604,
+   "offdiag_var": 0.010375325786882411,
+   "geometric_difference_min_over_gamma": 26.121490558498298
+  },
+  {
+   "n_qubits": 4,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.1475272564065201,
+   "offdiag_var": 0.03382791357750268,
+   "geometric_difference_min_over_gamma": 6.124368275666784
+  },
+  {
+   "n_qubits": 4,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.753446033129824,
+   "offdiag_var": 0.03736004835680453,
+   "geometric_difference_min_over_gamma": 2.7078650347197195
+  },
+  {
+   "n_qubits": 4,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9857749413502224,
+   "offdiag_var": 0.0002464560136202684,
+   "geometric_difference_min_over_gamma": 1.5252557088642147
+  },
+  {
+   "n_qubits": 6,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.022831503856030267,
+   "offdiag_var": 0.0015546953783374669,
+   "geometric_difference_min_over_gamma": 5.754369003535275
+  },
+  {
+   "n_qubits": 6,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.06559667838346114,
+   "offdiag_var": 0.012692561553971218,
+   "geometric_difference_min_over_gamma": 2.929540188259719
+  },
+  {
+   "n_qubits": 6,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.6013499764018154,
+   "offdiag_var": 0.05372185835832256,
+   "geometric_difference_min_over_gamma": 2.996053437876173
+  },
+  {
+   "n_qubits": 6,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9759807931213352,
+   "offdiag_var": 0.0005608269427143578,
+   "geometric_difference_min_over_gamma": 1.688483362696468
+  },
+  {
+   "n_qubits": 8,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.0070708498359238845,
+   "offdiag_var": 0.0002685476439036209,
+   "geometric_difference_min_over_gamma": 3.4125277882566842
+  },
+  {
+   "n_qubits": 8,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.02187584362956246,
+   "offdiag_var": 0.0035189940690309005,
+   "geometric_difference_min_over_gamma": 2.1625777986724803
+  },
+  {
+   "n_qubits": 8,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.5273824889044211,
+   "offdiag_var": 0.05714046862117483,
+   "geometric_difference_min_over_gamma": 3.116745046815529
+  },
+  {
+   "n_qubits": 8,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9686804801546067,
+   "offdiag_var": 0.000817657207847114,
+   "geometric_difference_min_over_gamma": 1.8115139215022174
+  },
+  {
+   "n_qubits": 10,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.001968610188381035,
+   "offdiag_var": 5.113776195814353e-05,
+   "geometric_difference_min_over_gamma": 2.4942687078364925
+  },
+  {
+   "n_qubits": 10,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.010913704733051737,
+   "offdiag_var": 0.0016481134484376545,
+   "geometric_difference_min_over_gamma": 1.8161805617203133
+  },
+  {
+   "n_qubits": 10,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.4954437238400303,
+   "offdiag_var": 0.054263609927948965,
+   "geometric_difference_min_over_gamma": 3.0216598949724305
+  },
+  {
+   "n_qubits": 10,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9641038935913466,
+   "offdiag_var": 0.0011469859105374429,
+   "geometric_difference_min_over_gamma": 1.9135770877114788
+  },
+  {
+   "n_qubits": 12,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.0005104771546019624,
+   "offdiag_var": 5.048125328849042e-06,
+   "geometric_difference_min_over_gamma": 1.771432275672142
+  },
+  {
+   "n_qubits": 12,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.004932498913724011,
+   "offdiag_var": 0.0005476842327515024,
+   "geometric_difference_min_over_gamma": 1.4631355781661306
+  },
+  {
+   "n_qubits": 12,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.42479795656076214,
+   "offdiag_var": 0.049931844463339536,
+   "geometric_difference_min_over_gamma": 2.663225122178265
+  },
+  {
+   "n_qubits": 12,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9563031631069585,
+   "offdiag_var": 0.001496111956464687,
+   "geometric_difference_min_over_gamma": 2.03369369506786
+  },
+  {
+   "n_qubits": 14,
+   "bandwidth": 1.0,
+   "offdiag_mean": 0.00014687991976146262,
+   "offdiag_var": 6.29132718535788e-07,
+   "geometric_difference_min_over_gamma": 1.4909971412972716
+  },
+  {
+   "n_qubits": 14,
+   "bandwidth": 0.4,
+   "offdiag_mean": 0.0024360998391140093,
+   "offdiag_var": 0.000258218654909776,
+   "geometric_difference_min_over_gamma": 1.3191782301322208
+  },
+  {
+   "n_qubits": 14,
+   "bandwidth": 0.1,
+   "offdiag_mean": 0.356448835100288,
+   "offdiag_var": 0.04530838571761108,
+   "geometric_difference_min_over_gamma": 2.3119014541526446
+  },
+  {
+   "n_qubits": 14,
+   "bandwidth": 0.02,
+   "offdiag_mean": 0.9483493796327312,
+   "offdiag_var": 0.001724399465680995,
+   "geometric_difference_min_over_gamma": 2.13840898037066
+  }
+ ],
+ "experiment": "E2 kernel concentration and geometric difference vs qubits and bandwidth (unsupervised)",
+ "provenance": {
+  "created_utc": "2026-10-25T12:08:46Z",
+  "python": "3.12.13",
+  "qiskit": "2.6.0",
+  "qiskit_aer": "0.17.2",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "statement": "All results: classical simulation on a laptop (NumPy statevector, Qiskit Aer, local FakeTorino noise model). No quantum hardware used."
+ }
+}

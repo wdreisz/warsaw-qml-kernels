@@ -1,0 +1,147 @@
+{
+ "experiment": "E3 kernel from shots and the FakeTorino noise model (subset: 40 train / 30 test, breast cancer)",
+ "device_model": "FakeTorino (historical snapshot bundled with qiskit-ibm-runtime; run locally in Aer)",
+ "rows": [
+  {
+   "n_qubits": 4,
+   "bandwidth": 0.05,
+   "circuits": 1980,
+   "shots_per_circuit": 1000,
+   "exact": {
+    "test_acc_by_C": {
+     "0.1": 0.6333333333333333,
+     "1.0": 0.8,
+     "10.0": 0.8,
+     "100.0": 0.8
+    },
+    "kernel_rmse_vs_exact": 0.0,
+    "mean_offdiag": 0.8620318634826599,
+    "seconds": 0.0022905420046299696
+   },
+   "ideal_shots": {
+    "test_acc_by_C": {
+     "0.1": 0.6333333333333333,
+     "1.0": 0.8666666666666667,
+     "10.0": 0.8333333333333334,
+     "100.0": 0.8
+    },
+    "kernel_rmse_vs_exact": 0.010202957141678445,
+    "mean_offdiag": 0.8618910256410257,
+    "seconds": 5.89078304200666
+   },
+   "transpiled_example": {
+    "depth": 102,
+    "cz": 22
+   },
+   "faketorino_noisy": {
+    "test_acc_by_C": {
+     "0.1": 0.6333333333333333,
+     "1.0": 0.7333333333333333,
+     "10.0": 0.7666666666666667,
+     "100.0": 0.7666666666666667
+    },
+    "kernel_rmse_vs_exact": 0.26598518569682816,
+    "mean_offdiag": 0.5985410256410256,
+    "seconds": 7.598178166983416
+   }
+  },
+  {
+   "n_qubits": 6,
+   "bandwidth": 0.05,
+   "circuits": 1980,
+   "shots_per_circuit": 1000,
+   "exact": {
+    "test_acc_by_C": {
+     "0.1": 0.6333333333333333,
+     "1.0": 0.8,
+     "10.0": 0.9666666666666667,
+     "100.0": 0.8666666666666667
+    },
+    "kernel_rmse_vs_exact": 0.0,
+    "mean_offdiag": 0.7870989733281264,
+    "seconds": 0.0019871669937856495
+   },
+   "ideal_shots": {
+    "test_acc_by_C": {
+     "0.1": 0.6333333333333333,
+     "1.0": 0.8,
+     "10.0": 0.9333333333333333,
+     "100.0": 0.8
+    },
+    "kernel_rmse_vs_exact": 0.012440025054465334,
+    "mean_offdiag": 0.7867576923076922,
+    "seconds": 7.224252999993041
+   },
+   "transpiled_example": {
+    "depth": 142,
+    "cz": 38
+   },
+   "faketorino_noisy": {
+    "test_acc_by_C": {
+     "0.1": 0.6333333333333333,
+     "1.0": 0.6666666666666666,
+     "10.0": 0.8666666666666667,
+     "100.0": 0.8666666666666667
+    },
+    "kernel_rmse_vs_exact": 0.3070213374588394,
+    "mean_offdiag": 0.47923461538461537,
+    "seconds": 22.34983999998076
+   }
+  }
+ ],
+ "overlap_circuit_cost": [
+  {
+   "n_qubits": 2,
+   "depth": 30,
+   "cz": 4
+  },
+  {
+   "n_qubits": 4,
+   "depth": 102,
+   "cz": 22
+  },
+  {
+   "n_qubits": 6,
+   "depth": 142,
+   "cz": 38
+  },
+  {
+   "n_qubits": 8,
+   "depth": 182,
+   "cz": 54
+  },
+  {
+   "n_qubits": 10,
+   "depth": 222,
+   "cz": 70
+  },
+  {
+   "n_qubits": 12,
+   "depth": 262,
+   "cz": 86
+  }
+ ],
+ "bandwidth_grid": [
+  0.01,
+  0.02,
+  0.05,
+  0.1,
+  0.2,
+  0.4,
+  1.0
+ ],
+ "full_dataset_circuits_per_fold": {
+  "train_pairs": 103285,
+  "test_pairs": 51870
+ },
+ "provenance": {
+  "created_utc": "2026-10-25T12:09:33Z",
+  "python": "3.12.13",
+  "qiskit": "2.6.0",
+  "qiskit_aer": "0.17.2",
+  "scikit_learn": "1.9.1",
+  "numpy": "2.5.4",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "statement": "All results: classical simulation on a laptop (NumPy statevector, Qiskit Aer, local FakeTorino noise model). No quantum hardware used."
+ }
+}
